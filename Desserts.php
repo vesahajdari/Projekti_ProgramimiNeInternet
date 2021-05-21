@@ -201,7 +201,7 @@ $underheader->intro();
                     slightly firm, then fold 1/2 of the whipped topping into each one.
                     Place a layer of graham crackers in the bottom of an 8x8 inch pan.
                     Spread half of the ...
-                    <a href="dessert7.html" target="_blank" style="text-decoration: none; color: rgb(255, 15, 107);">Read more</a>
+                    <a href="dessert7.php" target="_blank" style="text-decoration: none; color: rgb(255, 15, 107);">Read more</a>
                 </p>
                     
                 </div>
