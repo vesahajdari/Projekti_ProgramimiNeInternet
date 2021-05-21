@@ -1,3 +1,6 @@
+<?php
+    include_once("db/db_connection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +48,7 @@ $underheader->intro();
     
     <main>
       <div class="btopnav" id="bmyTopnav">
-        <a href="index.html " class="bactive"> <i class="fa fa-home icons"></i>  Home</a>
+        <a href="index.php " class="bactive"> <i class="fa fa-home icons"></i>  Home</a>
         <a href="Food.html"><i class="fa fa-cutlery icons"> </i>  Food</a>
         <div class="bdropdown">
           <button class="bdropbtn"> <i class="fa fa-birthday-cake icons"></i>  Desserts
@@ -94,6 +97,23 @@ $underheader->intro();
         <h2 id=Baking style="text-align: center;">BAKING</h2>
         </em>
     <div class="wrapper">
+        <?php
+            $sql = "SELECT * FROM tbl_desserts WHERE categories_id=1";
+            $resultset = mysqli_query($conn, $sql) or die("database error:". mysqli_error($conn));
+
+            while($row = mysqli_fetch_assoc($resultset)) {
+                echo "<div class=\"card\">
+                        <img src=\"{$row['image_url']}\">
+                        <div class=\"info\">
+                        <h5>{$row['name']}</h5>
+                        <p>
+                            {$row['description']}
+                             <a href=\"\" target=\"_blank\" style=\"text-decoration: none; color: rgb(255, 15, 107);\">Read more</a>
+                        </p>
+                    </div>
+                    </div>";
+            }
+        ?>
         <div class="card">
             <img src="FOTO/Desserts/1b.jpg" alt="Apple cake">
             <div class="info">
