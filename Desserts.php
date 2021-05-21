@@ -105,7 +105,7 @@ $underheader->intro();
                      on high until dough is smooth, about 5 minutes;
                      spread into baking dish and press dough up the sides.
                      Press apple slices into dough...
-                     <a href="dessert1.html" target="_blank" style="text-decoration: none; color: rgb(255, 15, 107);">Read more</a>
+                     <a href="dessert1.php" target="_blank" style="text-decoration: none; color: rgb(255, 15, 107);">Read more</a>
                    
                     </p>
                 
