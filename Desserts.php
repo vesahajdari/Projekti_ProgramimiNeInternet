@@ -25,7 +25,7 @@ class Headeri {
   }
 }
 
-// Strawberry is inherited from Fruit
+// underheader is inherited from headeri
 class underheader extends Headeri {
   public function message() {
     echo "Food To Your Heart";
