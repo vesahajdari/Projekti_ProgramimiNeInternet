@@ -213,7 +213,7 @@ $underheader->intro();
                     <p>Melt butter and marshmallows in a large heavy pan over low heat. Stir often.
                         Put popcorn into large container. Pour marshmallow mixture over top. Stir to mix well.
                          Add peanuts and candy. Mix ...
-                         <a href="dessert8.html" target="_blank" style="text-decoration: none; color: rgb(255, 15, 107);">Read more</a>
+                         <a href="dessert8.php" target="_blank" style="text-decoration: none; color: rgb(255, 15, 107);">Read more</a>
                         </p>
                     
                 </div>
