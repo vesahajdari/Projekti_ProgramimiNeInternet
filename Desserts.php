@@ -12,6 +12,31 @@
     <header>
 
           <div class="headeer">
+                       <?php
+class Headeri {
+  public $name;
+  public $taste;
+  public function __construct($name, $taste) {
+    $this->name = $name;
+    $this->taste = $taste; 
+  }
+  public function intro() {
+    echo "Our {$this->name} are {$this->taste}."; 
+  }
+}
+
+// Strawberry is inherited from Fruit
+class underheader extends Headeri {
+  public function message() {
+    echo "Food To Your Heart";
+    echo '<br>'; 
+  }
+}
+
+$underheader = new underheader("Dessert", "delicious");
+$underheader->message();
+$underheader->intro();
+?>
             <h1>DESSERTS</h1>
             <p>Food To Your Heart</p>            
           </div>
