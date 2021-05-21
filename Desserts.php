@@ -33,7 +33,7 @@ class underheader extends Headeri {
   }
 }
 
-$underheader = new underheader("Dessert", "delicious");
+$underheader = new underheader("Desserts", "delicious");
 $underheader->message();
 $underheader->intro();
 ?>
